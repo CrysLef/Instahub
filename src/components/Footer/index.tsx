@@ -1,7 +1,9 @@
+import * as S from './styles'
+
 export function Footer() {
     return (
         <footer>
-            <ul>
+            <S.Ul>
                 <li>
                     <a href="">Sobre</a>
                 </li>
@@ -24,7 +26,7 @@ export function Footer() {
                     <a href="">Termos</a>
                 </li>
                 <li>
-                    <a href="">Principais constants</a>
+                    <a href="">Principais contas</a>
                 </li>
                 <li>
                     <a href="">Hashtags</a>
@@ -35,6 +37,8 @@ export function Footer() {
                 <li>
                     <a href="">Instagram Lite</a>
                 </li>
+            </S.Ul>
+            <S.Ul>
                 <li>
                     <a href="">Beleza</a>
                 </li>
@@ -56,13 +60,24 @@ export function Footer() {
                 <li>
                     <a href="">Artes visuais</a>
                 </li>
+            </S.Ul>
+            <S.Ul>
                 <li>
-                    <a href="">Português (Brasil)</a>
+                    <select>
+                        <option value="">Português (Brasil)</option>
+                        <option value="">English</option>
+                        <option value="">Español</option>
+                        <option value="">Deutsch</option>
+                        <option value="">Français</option>
+                        <option value="">Italiano</option>
+                        <option value="">Polski</option>
+                        <option value="">Nederlands</option>
+                    </select>
                 </li>
                 <li>
                     <a href="">© 2021 Instahub do Crystian</a>
                 </li>
-            </ul>
+            </S.Ul>
         </footer>
     )
 }
