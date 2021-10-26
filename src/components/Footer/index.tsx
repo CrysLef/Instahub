@@ -74,9 +74,7 @@ export function Footer() {
                         <option value="">Nederlands</option>
                     </select>
                 </li>
-                <li>
-                    <a href="">© 2021 Instahub do Crystian</a>
-                </li>
+                <li>© 2021 Instahub do Crystian</li>
             </S.Ul>
         </footer>
     )
