@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 export const Globalstyle = createGlobalStyle`
     html,
     body {
+        background-color: #FAFAFA;
         padding: 0;
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
